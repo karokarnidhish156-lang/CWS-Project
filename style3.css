@@ -1,0 +1,864 @@
+.home-page-before {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 2170px;
+  position: relative;
+}
+
+.home-page-before .frame {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  gap: 92px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f4ed;
+}
+
+.home-page-before .sleek-motora-x-car {
+  position: relative;
+  width: 313px;
+  height: 104px;
+  aspect-ratio: 3;
+  object-fit: cover;
+}
+
+.home-page-before .div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: absolute;
+  top: 52px;
+  left: 568px;
+}
+
+.home-page-before .navigation-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  -webkit-text-stroke: 1px #78283e;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .action-label-wrapper {
+  display: flex;
+  width: 180px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 52px;
+  position: absolute;
+  top: 29px;
+  left: 1138px;
+  background-color: #78283e;
+  border-radius: 4px;
+}
+
+.home-page-before .action-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #f7f4ed;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .line-wrapper {
+  position: absolute;
+  top: 747px;
+  left: 0;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  background-color: #f7f4ed;
+}
+
+.home-page-before .line {
+  margin-top: 99px;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.home-page-before .frame-2 {
+  position: absolute;
+  top: 99px;
+  left: 0;
+  width: 1440px;
+  height: 748px;
+  background-color: #f7f4ed;
+}
+
+.home-page-before .boxicons-car-key {
+  position: absolute;
+  top: 780px;
+  left: 1081px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  aspect-ratio: 1;
+}
+
+.home-page-before .vector {
+  flex: 1;
+  width: 26.23px;
+}
+
+.home-page-before .ant-design-safety {
+  position: absolute;
+  top: 785px;
+  left: 603px;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  background-color: #f7f4ed;
+  border: 1px solid;
+  aspect-ratio: 1;
+}
+
+.home-page-before .img {
+  flex: 1;
+  width: 19.51px;
+}
+
+.home-page-before .promise-title {
+  top: 783px;
+  left: 635px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #1c1a19;
+  font-size: 13px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .rectangle {
+  position: absolute;
+  top: 586px;
+  left: 89px;
+  width: 212px;
+  height: 48px;
+  background-color: #78283e;
+  border-radius: 4px;
+}
+
+.home-page-before .line-2 {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.home-page-before .line-3 {
+  position: absolute;
+  top: 746px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.home-page-before .frame-3 {
+  position: absolute;
+  top: 848px;
+  left: 0;
+  width: 1440px;
+  height: 738px;
+  background-color: #eee8de;
+}
+
+.home-page-before .title {
+  position: absolute;
+  top: 96px;
+  left: 74px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 44px;
+  letter-spacing: -1.5px;
+  line-height: normal;
+}
+
+.home-page-before .frame-wrapper {
+  position: absolute;
+  top: 196px;
+  left: 256px;
+  width: 421px;
+  height: 478px;
+  display: flex;
+}
+
+.home-page-before .frame-4 {
+  width: 421px;
+  height: 478px;
+  margin-left: -18px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.home-page-before .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 421px;
+  height: 237px;
+  object-fit: cover;
+}
+
+.home-page-before .model-name {
+  position: absolute;
+  top: 260px;
+  left: 22px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .year {
+  position: absolute;
+  top: 266px;
+  left: 370px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .trim {
+  position: absolute;
+  top: 291px;
+  left: 22px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .quick-specifications {
+  position: absolute;
+  top: 330px;
+  left: 19px;
+  width: 381px;
+  height: 13px;
+  display: flex;
+  gap: 14px;
+}
+
+.home-page-before .mileage {
+  width: 55px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .separator {
+  width: 4px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .fuel {
+  width: 31px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .transmission {
+  width: 53px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .divider {
+  position: absolute;
+  top: 358px;
+  left: 19px;
+  width: 381px;
+  height: 1px;
+  background-color: #ddd7cd;
+}
+
+.home-page-before .asking-price {
+  position: absolute;
+  top: 374px;
+  left: 19px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #78283e;
+  font-size: 23px;
+  letter-spacing: -0.8px;
+  line-height: normal;
+}
+
+.home-page-before .action {
+  position: absolute;
+  top: 417px;
+  left: 19px;
+  width: 381px;
+  height: 48px;
+  display: flex;
+  gap: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.home-page-before .action-label-2 {
+  margin-top: 16px;
+  width: 148px;
+  height: 16px;
+  margin-left: 108px;
+  color: #78283e;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .vector-wrapper {
+  margin-top: 16px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
+
+.home-page-before .vector-2 {
+  flex: 1;
+  width: 11.15px;
+}
+
+.home-page-before .frame-5 {
+  position: absolute;
+  top: 196px;
+  left: 800px;
+  width: 421px;
+  height: 478px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.home-page-before .quick-specifications-2 {
+  position: absolute;
+  top: 330px;
+  left: 19px;
+  width: 381px;
+  height: 13px;
+  display: flex;
+}
+
+.home-page-before .mileage-2 {
+  width: 56px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .separator-2 {
+  width: 4px;
+  height: 13px;
+  margin-left: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .fuel-2 {
+  width: 32px;
+  height: 13px;
+  margin-left: 14px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .transmission-2 {
+  width: 90px;
+  height: 13px;
+  margin-left: 14px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .action-2 {
+  position: absolute;
+  top: 417px;
+  left: 19px;
+  width: 381px;
+  height: 48px;
+  display: flex;
+  gap: 9px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.home-page-before .action-label-3 {
+  margin-top: 16px;
+  width: 148px;
+  height: 16px;
+  margin-left: 107px;
+  color: #78283e;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .frame-6 {
+  position: absolute;
+  top: 1586px;
+  left: 0;
+  width: 1440px;
+  height: 463px;
+  background-color: #35131f;
+}
+
+.home-page-before .contact-headline {
+  position: absolute;
+  top: 98px;
+  left: 101px;
+  width: 560px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7f4ed;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+  line-height: 55.2px;
+}
+
+.home-page-before .section-label {
+  position: absolute;
+  top: 66px;
+  left: 101px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .action-3 {
+  position: absolute;
+  top: 324px;
+  left: 101px;
+  width: 188px;
+  height: 48px;
+  display: flex;
+  gap: 20px;
+  background-color: #f7f4ed;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.home-page-before .action-label-4 {
+  margin-top: 16px;
+  width: 112px;
+  height: 16px;
+  margin-left: 20px;
+  color: #78283e;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .vector-3 {
+  flex: 1;
+  width: 8.17px;
+}
+
+.home-page-before .invitation-copy {
+  position: absolute;
+  top: 241px;
+  left: 101px;
+  width: 460px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+}
+
+.home-page-before .p {
+  left: 853px;
+  width: 170px;
+  position: absolute;
+  top: 115px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+}
+
+.home-page-before .invitation-copy-2 {
+  left: 1134px;
+  width: 211px;
+  position: absolute;
+  top: 115px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+}
+
+.home-page-before .line-4 {
+  position: absolute;
+  top: 2048px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.home-page-before .hero-headline {
+  top: 309px;
+  left: 89px;
+  width: 520px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  color: #1c1a19;
+  font-size: 76px;
+  letter-spacing: -3px;
+  line-height: 82.1px;
+  position: absolute;
+  font-weight: 400;
+}
+
+.home-page-before .section-label-2 {
+  top: 262px;
+  left: 94px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .vehicle-photography {
+  position: absolute;
+  top: 123px;
+  left: 647px;
+  width: 766px;
+  height: 576px;
+  object-fit: cover;
+}
+
+.home-page-before .promise-title-2 {
+  top: 781px;
+  left: 122px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #1c1a19;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .promise-detail {
+  top: 797px;
+  left: 122px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .basil-checked-box {
+  position: absolute;
+  top: 783px;
+  left: 85px;
+  width: 27px;
+  height: 27px;
+  aspect-ratio: 1;
+}
+
+.home-page-before .vector-4 {
+  position: absolute;
+  width: 85.31%;
+  height: 85.38%;
+  top: 14.62%;
+  left: 14.69%;
+}
+
+.home-page-before .vector-5 {
+  position: absolute;
+  width: 67.79%;
+  height: 80.29%;
+  top: 19.71%;
+  left: 32.21%;
+}
+
+.home-page-before .hero-description {
+  top: 509px;
+  left: 85px;
+  width: 430px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #76716d;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  font-weight: 400;
+}
+
+.home-page-before .action-label-5 {
+  position: absolute;
+  top: 602px;
+  left: 127px;
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .promise-detail-2 {
+  top: 801px;
+  left: 635px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .promise-title-3 {
+  top: 783px;
+  left: 1121px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #1c1a19;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page-before .promise-detail-3 {
+  top: 800px;
+  left: 1121px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .section-label-3 {
+  top: 921px;
+  left: 74px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .frame-7 {
+  position: absolute;
+  top: 2049px;
+  left: 0;
+  width: 1440px;
+  height: 121px;
+  background-color: #35131f;
+}
+
+.home-page-before .sleek-motora-x-car-2 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 313px;
+  height: 104px;
+  aspect-ratio: 3;
+  object-fit: cover;
+}
+
+.home-page-before .copyright {
+  position: absolute;
+  top: 55px;
+  left: 600px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-page-before .line-5 {
+  position: absolute;
+  top: -1202px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.home-page-before .admin {
+  position: absolute;
+  top: 55px;
+  left: 1235px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* Semantic and interactive element normalization.
+   Inject after the existing style.css rules. */
+
+.home-page-before a {
+  color: inherit;
+}
+
+.home-page-before .action-label-wrapper,
+.home-page-before .rectangle,
+.home-page-before .action,
+.home-page-before .action-2,
+.home-page-before .action-3 {
+  cursor: pointer;
+}
+
+.home-page-before .action-label-wrapper:focus-visible,
+.home-page-before .rectangle:focus-visible,
+.home-page-before .action:focus-visible,
+.home-page-before .action-2:focus-visible,
+.home-page-before .action-3:focus-visible,
+.home-page-before .div a:focus-visible,
+.home-page-before .frame > a:focus-visible,
+.home-page-before .frame-7 > a:focus-visible,
+.home-page-before .admin:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 3px;
+}
+
+.home-page-before .p a,
+.home-page-before .invitation-copy-2 a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.home-page-before address {
+  font-style: normal;
+}
+
+@media (max-width: 1440px) {
+  .home-page-before {
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sign in to your MotoraX account">
+<title>Sign in | MotoraX</title>
+<link rel="stylesheet" href="globals.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-page">
+<header class="frame">
+<a class="brand-link" href="/" aria-label="MotoraX home">
+<img
+          class="sleek-motora-x-car"
+          src="Sleek Motora X Car Logo.png"
+          alt="MotoraX"
+        >
+</a>
+<div class="account-destination" aria-current="page">
+<span class="destination">MY MOTORAX</span>
+</div>
+<a class="return-to-website" href="Home.html" aria-label="Back to MotoraX website">
+<img class="back-arrow" src="img/back-arrow.svg" alt="" aria-hidden="true">
+<span class="website-link">Back to MotoraX website</span>
+</a>
+</header>
+<main class="login-content">
+<img
+        class="img"
+        src="pexels-introspectivedsgn-17716188.jpg"
+        alt=""
+        aria-hidden="true"
+      >
+<section class="welcome-content" aria-labelledby="welcome-heading">
+<p class="account-kicker">YOUR MOTORAX ACCOUNT</p>
+<h1 id="welcome-heading" class="welcome-heading">Welcome back.</h1>
+<p class="welcome-description">
+Sign in to revisit your favourite cars and keep your next test drive in view.
+        </p>
+<p class="required-note">
+Required fields are marked with an <span aria-hidden="true">*</span>.
+        </p>
+<form class="login-form" action="#" method="post">
+<div class="form-field">
+<label class="form-label" for="username">
+Email or username <span aria-hidden="true">*</span>
+</label>
+<input
+              class="form-input"
+              id="username"
+              name="username"
+              type="text"
+              autocomplete="username"
+              placeholder="Enter your username or email"
+              required
+            >
+</div>
+<div class="form-field password-field">
+<label class="form-label" for="password">
+Password <span aria-hidden="true">*</span>
+</label>
+<div class="password-control">
+<input
+                class="form-input"
+                id="password"
+                name="password"
+                type="password"
+                autocomplete="current-password"
+                placeholder="Enter your password"
+                required
+              >
+<button
+                class="password-toggle"
+                type="button"
+                aria-label="Show password"
+                aria-controls="password"
+                aria-pressed="false"
+              >
+Show
+              </button>
+</div>
+</div>
+<a class="forgot-password" href="HomeAL.html">
+Forgot your password?
+          </a>
+<button class="sign-in-button" type="submit" href="HomeAL.html">
+<a href="HomeAL.html">Sign In</a>
+<span class="button-arrow" href="HomeAL.html" aria-hidden="true">→</span>
+</button>
+</form>
+<div class="registration">
+<h2 class="registration-heading">New to MotoraX?</h2>
+<p class="registration-description">
+A place for your favourites. A simpler way to your next car.
+          </p>
+<a class="create-account" href="signup.html">
+<span>Create Account</span>
+<span class="button-arrow" aria-hidden="true">→</span>
+</a>
+</div>
+</section>
+</main>
+<footer class="div">
+<a class="brand-link footer-brand-link" href="/" aria-label="MotoraX home">
+<img
+          class="sleek-motora-x-car-2"
+          src="Sleek Motora X Car Logo.png"
+          alt="MotoraX"
+        >
+</a>
+<p class="copyright">© 2026 MotoraX. A better class of car buying.</p>
+<img class="line" src="img/line-3.svg" alt="" aria-hidden="true">
+<a class="admin" href="/dealer-login">Dealer login <span aria-hidden="true">↗</span></a>
+</footer>
+</div>
+<script>
+(() => {
+      const toggle = document.querySelector(".password-toggle");
+      const password = document.querySelector("#password");
+
+      if (!toggle || !password) return;
+
+      toggle.addEventListener("click", () => {
+        const isVisible = password.type === "text";
+        password.type = isVisible ? "password" : "text";
+        toggle.textContent = isVisible ? "Show" : "Hide";
+        toggle.setAttribute("aria-label", isVisible ? "Show password" : "Hide password");
+        toggle.setAttribute("aria-pressed", String(!isVisible));
+      });
+    })();
+  </script>
+</body>
+</html>

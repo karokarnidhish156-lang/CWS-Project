@@ -1,0 +1,1133 @@
+.signup-page {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-page .frame {
+  width: 1440px;
+  height: 104px;
+  position: relative;
+  background-color: #f7f4ed;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .sleek-motora-x-car {
+  height: 104px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 313px;
+  aspect-ratio: 3;
+  object-fit: cover;
+}
+
+.signup-page .account-destination {
+  position: absolute;
+  top: 46px;
+  left: 297px;
+  width: 108px;
+  height: 12px;
+  display: flex;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .destination {
+  width: 84px;
+  height: 12px;
+  margin-left: 24px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #78283e;
+  font-size: 10px;
+  letter-spacing: 1.7px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .return-to-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 45px;
+  left: 1215px;
+}
+
+.signup-page .back-arrow {
+  position: relative;
+  width: 10px;
+  height: 11.06px;
+}
+
+.signup-page .website-link {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #78283e;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .div {
+  width: 1440px;
+  height: 888px;
+  position: relative;
+  background-color: #f7f4ed;
+}
+
+.signup-page .frame-2 {
+  position: absolute;
+  top: 32px;
+  left: 71px;
+  width: 600px;
+  height: 824px;
+  display: flex;
+  flex-direction: column;
+  background-color: #35131f;
+}
+
+.signup-page .brand-statement {
+  margin-left: 60px;
+  width: 273px;
+  height: 12px;
+  margin-top: 50px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #cfbbc0;
+  font-size: 10px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .editorial-headline {
+  margin-left: 60px;
+  width: 504px;
+  height: 110px;
+  margin-top: 20px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7f4ed;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+  line-height: 55.2px;
+}
+
+.signup-page .customer-invitation {
+  margin-left: 60px;
+  width: 504px;
+  height: 46px;
+  margin-top: 20px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.signup-page .rectangle {
+  margin-left: 48px;
+  width: 504px;
+  height: 300px;
+  margin-top: 57px;
+  object-fit: cover;
+}
+
+.signup-page .line {
+  margin-left: 48px;
+  width: 504px;
+  margin-top: 55px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.signup-page .frame-3 {
+  margin-left: 48px;
+  width: 504px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.signup-page .account-benefit {
+  width: 152px;
+  height: 17px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 16.5px;
+}
+
+.signup-page .text-wrapper {
+  margin-left: 46px;
+  width: 108px;
+  height: 17px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 16.5px;
+}
+
+.signup-page .account-benefit-2 {
+  margin-left: 90px;
+  width: 108px;
+  height: 17px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 16.5px;
+}
+
+.signup-page .img {
+  margin-left: 48px;
+  width: 504px;
+  margin-top: 19px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.signup-page .brand-promise {
+  margin-left: 48px;
+  width: 196px;
+  height: 24px;
+  margin-top: 27px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7f4ed;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .existing-account {
+  position: absolute;
+  top: 750px;
+  left: 984px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .line-2 {
+  position: absolute;
+  top: 735px;
+  left: 868px;
+  width: 448px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.signup-page .field-label {
+  position: absolute;
+  top: 430px;
+  left: 870px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .span {
+  color: #1c1a19;
+}
+
+.signup-page .text-wrapper-2 {
+  color: #78283e;
+}
+
+.signup-page .p {
+  top: 521px;
+  left: 869px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .rectangle-2 {
+  position: absolute;
+  top: 366px;
+  left: 869px;
+  width: 448px;
+  height: 52px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .rectangle-3 {
+  position: absolute;
+  top: 275px;
+  left: 869px;
+  width: 448px;
+  height: 52px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .rectangle-4 {
+  position: absolute;
+  top: 457px;
+  left: 868px;
+  width: 448px;
+  height: 52px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .rectangle-5 {
+  position: absolute;
+  top: 548px;
+  left: 868px;
+  width: 448px;
+  height: 52px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .rectangle-6 {
+  position: absolute;
+  top: 656px;
+  left: 868px;
+  width: 448px;
+  height: 52px;
+  background-color: #78283e;
+  border-radius: 4px;
+}
+
+.signup-page .required-field {
+  position: absolute;
+  top: 218px;
+  left: 869px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .text-wrapper-3 {
+  color: #76716d;
+}
+
+.signup-page .account-description {
+  position: absolute;
+  top: 148px;
+  left: 868px;
+  width: 448px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24.5px;
+}
+
+.signup-page .account-label {
+  position: absolute;
+  top: 64px;
+  left: 869px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 10px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .page-title {
+  position: absolute;
+  top: 88px;
+  left: 868px;
+  width: 448px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 42px;
+  letter-spacing: -1.2px;
+  line-height: 48.3px;
+}
+
+.signup-page .field-label-2 {
+  top: 339px;
+  left: 870px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .field-label-3 {
+  top: 248px;
+  left: 870px;
+  position: absolute;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .text-wrapper-4 {
+  position: absolute;
+  top: 673px;
+  left: 891px;
+  width: 103px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .forward-arrow {
+  position: absolute;
+  top: 603px;
+  left: 1279px;
+  width: 13px;
+  height: 13px;
+}
+
+.signup-page .input-content {
+  position: absolute;
+  top: 293px;
+  left: 891px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .input-content-2 {
+  top: 384px;
+  line-height: normal;
+  position: absolute;
+  left: 891px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.signup-page .input-content-3 {
+  top: 472px;
+  line-height: 20.8px;
+  white-space: nowrap;
+  position: absolute;
+  left: 891px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.signup-page .rectangle-7 {
+  position: absolute;
+  top: 614px;
+  left: 868px;
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .agreement-text {
+  position: absolute;
+  top: 614px;
+  left: 895px;
+  width: 312px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20.4px;
+}
+
+.signup-page .text-wrapper-5 {
+  color: #78283e;
+  text-decoration: underline;
+}
+
+.signup-page .forward-arrow-2 {
+  position: absolute;
+  top: 675px;
+  left: 1279px;
+  width: 13px;
+  height: 13px;
+}
+
+.signup-page .sign-in-link {
+  position: absolute;
+  top: 750px;
+  left: 1134px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.signup-page .frame-4 {
+  width: 1440px;
+  height: 88px;
+  position: relative;
+  background-color: #f7f4ed;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.signup-page .sleek-motora-x-car-2 {
+  height: 88px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 313px;
+  aspect-ratio: 3;
+  object-fit: cover;
+}
+
+.signup-page .copyright {
+  position: absolute;
+  top: 44px;
+  left: 600px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .line-3 {
+  position: absolute;
+  top: -1202px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.signup-page .admin {
+  position: absolute;
+  top: 42px;
+  left: 1233px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.signup-page {
+  background-color: #fff;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-page .frame,
+.signup-page .frame-4 {
+  position: relative;
+  width: 1440px;
+  flex: 0 0 auto;
+  background-color: #f7f4ed;
+  border: 1px solid #ddd7cd;
+}
+
+.signup-page .frame {
+  height: 104px;
+}
+
+.signup-page .sleek-motora-x-car,
+.signup-page .sleek-motora-x-car-2 {
+  position: absolute;
+  left: 0;
+  width: 313px;
+  object-fit: cover;
+  aspect-ratio: 3;
+}
+
+.signup-page .sleek-motora-x-car {
+  top: 0;
+  height: 104px;
+}
+
+.signup-page .sleek-motora-x-car-2 {
+  top: 0;
+  height: 88px;
+}
+
+.signup-page .account-destination {
+  position: absolute;
+  top: 46px;
+  left: 297px;
+  width: 108px;
+  height: 12px;
+  display: flex;
+  border-left: 1px solid #ddd7cd;
+}
+
+.signup-page .destination {
+  width: 84px;
+  height: 12px;
+  margin-left: 24px;
+  color: #78283e;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.7px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .return-to-website {
+  position: absolute;
+  top: 45px;
+  left: 1215px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #78283e;
+}
+
+.signup-page .back-arrow {
+  width: 10px;
+  height: 11.06px;
+}
+
+.signup-page .website-link {
+  width: fit-content;
+  margin-top: -1px;
+  color: #78283e;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.signup-page .div {
+  position: relative;
+  width: 1440px;
+  height: 888px;
+  flex: 0 0 auto;
+  background-color: #f7f4ed;
+}
+
+.signup-page .frame-2 {
+  position: absolute;
+  top: 32px;
+  left: 71px;
+  width: 600px;
+  height: 824px;
+  display: flex;
+  flex-direction: column;
+  background-color: #35131f;
+}
+
+.signup-page .brand-statement {
+  width: 273px;
+  height: 12px;
+  margin-top: 50px;
+  margin-left: 60px;
+  color: #cfbbc0;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .editorial-headline {
+  width: 504px;
+  height: 110px;
+  margin: 20px 0 0 60px;
+  color: #f7f4ed;
+  font-family: "Playfair Display-Regular", Helvetica, serif;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  line-height: 55.2px;
+}
+
+.signup-page .customer-invitation {
+  width: 504px;
+  height: 46px;
+  margin: 20px 0 0 60px;
+  color: #cfbbc0;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+
+.signup-page .rectangle {
+  width: 504px;
+  height: 300px;
+  margin: 57px 0 0 48px;
+  object-fit: cover;
+}
+
+.signup-page .line,
+.signup-page .img {
+  width: 504px;
+  height: 1px;
+  margin-left: 48px;
+  object-fit: cover;
+}
+
+.signup-page .line {
+  margin-top: 55px;
+}
+
+.signup-page .frame-3 {
+  width: 504px;
+  margin: 16px 0 0 48px;
+  display: flex;
+}
+
+.signup-page .account-benefit,
+.signup-page .text-wrapper,
+.signup-page .account-benefit-2 {
+  height: 17px;
+  color: #cfbbc0;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+}
+
+.signup-page .account-benefit {
+  width: 152px;
+}
+
+.signup-page .text-wrapper {
+  width: 108px;
+  margin-left: 46px;
+}
+
+.signup-page .account-benefit-2 {
+  width: 108px;
+  margin-left: 90px;
+}
+
+.signup-page .img {
+  margin-top: 19px;
+}
+
+.signup-page .brand-promise {
+  width: 196px;
+  height: 24px;
+  margin: 27px 0 0 48px;
+  color: #f7f4ed;
+  font-family: "Playfair Display-Regular", Helvetica, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signup-page .account-label,
+.signup-page .page-title,
+.signup-page .account-description,
+.signup-page .required-field,
+.signup-page form,
+.signup-page .existing-account,
+.signup-page .sign-in-link,
+.signup-page .line-2 {
+  position: absolute;
+  left: 868px;
+}
+
+.signup-page .account-label {
+  top: 64px;
+  left: 869px;
+  color: #78283e;
+  font-family: "Inter-SemiBold", Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .page-title {
+  top: 88px;
+  width: 448px;
+  color: #1c1a19;
+  font-family: "Playfair Display-Regular", Helvetica, serif;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  line-height: 48.3px;
+}
+
+.signup-page .account-description {
+  top: 148px;
+  width: 448px;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+
+.signup-page .required-field {
+  top: 218px;
+  left: 869px;
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .text-wrapper-2 {
+  color: #78283e;
+}
+
+.signup-page .text-wrapper-3 {
+  color: #76716d;
+}
+
+.signup-page form {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-page .field-label,
+.signup-page .p,
+.signup-page .field-label-2,
+.signup-page .field-label-3 {
+  position: absolute;
+  color: transparent;
+  font-family: "Inter-Medium", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.signup-page .field-label {
+  top: 430px;
+  left: 870px;
+}
+
+.signup-page .p {
+  top: 521px;
+  left: 869px;
+}
+
+.signup-page .field-label-2 {
+  top: 339px;
+  left: 870px;
+}
+
+.signup-page .field-label-3 {
+  top: 248px;
+  left: 870px;
+}
+
+.signup-page .span {
+  color: #1c1a19;
+}
+
+.signup-page .rectangle-2,
+.signup-page .rectangle-3,
+.signup-page .rectangle-4,
+.signup-page .rectangle-5 {
+  position: absolute;
+  left: 868px;
+  width: 448px;
+  height: 52px;
+  padding: 0 22px;
+  background-color: #fff;
+  border: 1px solid #ddd7cd;
+  border-radius: 4px;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: normal;
+  outline: none;
+}
+
+.signup-page .rectangle-2 {
+  top: 366px;
+}
+
+.signup-page .rectangle-3 {
+  top: 275px;
+}
+
+.signup-page .rectangle-4 {
+  top: 457px;
+}
+
+.signup-page .rectangle-5 {
+  top: 548px;
+}
+
+.signup-page .rectangle-2::placeholder,
+.signup-page .rectangle-3::placeholder,
+.signup-page .rectangle-4::placeholder,
+.signup-page .rectangle-5::placeholder {
+  color: transparent;
+}
+
+.signup-page .rectangle-2:focus,
+.signup-page .rectangle-3:focus,
+.signup-page .rectangle-4:focus,
+.signup-page .rectangle-5:focus,
+.signup-page .rectangle-7:focus-within {
+  border-color: #78283e;
+  box-shadow: 0 0 0 2px rgba(120, 40, 62, 0.16);
+}
+
+.signup-page .input-content,
+.signup-page .input-content-2,
+.signup-page .input-content-3 {
+  position: absolute;
+  left: 891px;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  pointer-events: none;
+}
+
+.signup-page .input-content {
+  top: 293px;
+}
+
+.signup-page .input-content-2 {
+  top: 384px;
+}
+
+.signup-page .input-content-3 {
+  top: 472px;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.signup-page .rectangle-7 {
+  position: absolute;
+  top: 614px;
+  left: 868px;
+  width: 18px;
+  height: 18px;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ddd7cd;
+  border-radius: 4px;
+}
+
+.signup-page .rectangle-7 input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.signup-page .rectangle-7:has(input:checked)::after {
+  content: "✓";
+  position: absolute;
+  top: -3px;
+  left: 3px;
+  color: #78283e;
+  font-size: 14px;
+}
+
+.signup-page .agreement-text {
+  position: absolute;
+  top: 614px;
+  left: 895px;
+  width: 312px;
+  color: transparent;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+}
+
+.signup-page .text-wrapper-5 {
+  color: #78283e;
+  text-decoration: underline;
+}
+
+.signup-page .rectangle-6 {
+  position: absolute;
+  top: 656px;
+  left: 868px;
+  width: 448px;
+  height: 52px;
+  padding: 0;
+  background-color: #78283e;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-page .rectangle-6:hover,
+.signup-page .rectangle-6:focus-visible {
+  background-color: #642035;
+}
+
+.signup-page .text-wrapper-4 {
+  position: absolute;
+  top: 17px;
+  left: 23px;
+  width: 103px;
+  color: #fff;
+  font-family: "Inter-SemiBold", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+
+.signup-page .forward-arrow,
+.signup-page .forward-arrow-2 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+}
+
+.signup-page .forward-arrow {
+  top: 603px;
+  left: 1279px;
+}
+
+.signup-page .forward-arrow-2 {
+  top: 19px;
+  left: 411px;
+}
+
+.signup-page .line-2 {
+  top: 735px;
+  left: 868px;
+  width: 448px;
+  height: 1px;
+  object-fit: cover;
+  background-color: #ddd7cd;
+}
+
+.signup-page .existing-account {
+  top: 750px;
+  left: 984px;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signup-page .sign-in-link {
+  top: 750px;
+  left: 1134px;
+  color: #78283e;
+  font-family: "Inter-SemiBold", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.signup-page .frame-4 {
+  height: 88px;
+}
+
+.signup-page .copyright {
+  position: absolute;
+  top: 44px;
+  left: 600px;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.signup-page .line-3 {
+  position: absolute;
+  top: -1202px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.signup-page .admin {
+  position: absolute;
+  top: 42px;
+  left: 1233px;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

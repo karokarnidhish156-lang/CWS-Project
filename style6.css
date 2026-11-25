@@ -1,0 +1,319 @@
+.inventory-page {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1740px;
+  position: relative;
+}
+
+.inventory-page .frame {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  gap: 92px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f4ed;
+}
+
+.inventory-page .sleek-motora-x-car {
+  position: relative;
+  width: 313px;
+  height: 104px;
+  aspect-ratio: 3;
+}
+
+.inventory-page .div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: absolute;
+  top: 44px;
+  left: 568px;
+}
+
+.inventory-page .navigation-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .text-wrapper {
+  -webkit-text-stroke: 1px #78283e;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .navigation-label-2 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .frame-2 {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 1440px;
+  height: 189px;
+  background-color: #ddd7cd;
+}
+
+.inventory-page .inventory-title {
+  position: absolute;
+  top: 79px;
+  left: 77px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 54px;
+  letter-spacing: -2px;
+  line-height: normal;
+}
+
+.inventory-page .section-label {
+  position: absolute;
+  top: 66px;
+  left: 77px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .collection {
+  position: absolute;
+  top: 99px;
+  left: 986px;
+  width: 350px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.inventory-page .frame-3 {
+  position: absolute;
+  top: 1619px;
+  left: 0;
+  width: 1440px;
+  height: 121px;
+  background-color: #35131f;
+}
+
+.inventory-page .img {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 313px;
+  height: 104px;
+  aspect-ratio: 3;
+  object-fit: cover;
+}
+
+.inventory-page .copyright {
+  position: absolute;
+  top: 55px;
+  left: 600px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .line {
+  position: absolute;
+  top: -1202px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.inventory-page .frame-4 {
+  position: absolute;
+  top: 299px;
+  left: 11px;
+  width: 1429px;
+  height: 1190px;
+}
+
+.inventory-page .frame-5 {
+  position: absolute;
+  top: 1483px;
+  left: 0;
+  width: 1440px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd7cd;
+}
+
+.inventory-page .assistance-headline {
+  margin-left: 61px;
+  width: 376px;
+  height: 37px;
+  margin-top: 30px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .assistance {
+  margin-left: 61px;
+  width: 376px;
+  height: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .assistance-title {
+  position: absolute;
+  top: 1288px;
+  left: 79px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .assistance-action {
+  position: absolute;
+  top: 1361px;
+  left: 79px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 11px;
+  white-space: nowrap;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .page-number {
+  position: absolute;
+  top: 1412px;
+  left: 1302px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* The original style.css content is injected here. */
+
+.inventory-page a {
+  color: inherit;
+}
+
+.inventory-page a:focus-visible {
+  outline: 2px solid #78283e;
+  outline-offset: 4px;
+}
+
+.inventory-page button,
+.inventory-page a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.inventory-page .frame > a {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.inventory-page .frame-2 {
+  isolation: isolate;
+}
+
+.inventory-page .frame-4 {
+  overflow: hidden;
+}
+
+.inventory-page .frame-4 .img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center top;
+}
+
+.inventory-page .frame-5 {
+  box-sizing: border-box;
+}
+
+.inventory-page .assistance-action {
+  display: inline-block;
+}
+
+.inventory-page .page-number a {
+  display: inline-block;
+  color: inherit;
+}
+
+.inventory-page .page-number a:hover,
+.inventory-page .assistance-action:hover,
+.inventory-page .div a:hover {
+  color: #78283e;
+}
+
+.inventory-page .frame-3 .img {
+  object-fit: contain;
+}
+
+@media (max-width: 1440px) {
+  .inventory-page {
+    overflow-x: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .inventory-page *,
+  .inventory-page *::before,
+  .inventory-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

@@ -1,0 +1,1314 @@
+.inventory-page {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1740px;
+  position: relative;
+}
+
+.inventory-page .frame {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  gap: 92px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f4ed;
+}
+
+.inventory-page .sleek-motora-x-car {
+  position: relative;
+  width: 313px;
+  height: 104px;
+  aspect-ratio: 3;
+}
+
+.inventory-page .div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: absolute;
+  top: 44px;
+  left: 568px;
+}
+
+.inventory-page .navigation-label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .text-wrapper {
+  -webkit-text-stroke: 1px #78283e;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .navigation-label-2 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .frame-2 {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 1440px;
+  height: 189px;
+  background-color: #ddd7cd;
+}
+
+.inventory-page .inventory-title {
+  position: absolute;
+  top: 79px;
+  left: 77px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 54px;
+  letter-spacing: -2px;
+  line-height: normal;
+}
+
+.inventory-page .section-label {
+  position: absolute;
+  top: 66px;
+  left: 77px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 11px;
+  letter-spacing: 2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .collection {
+  position: absolute;
+  top: 99px;
+  left: 986px;
+  width: 350px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.inventory-page .frame-3 {
+  position: absolute;
+  top: 1619px;
+  left: 0;
+  width: 1440px;
+  height: 121px;
+  background-color: #35131f;
+}
+
+.inventory-page .img {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 313px;
+  height: 104px;
+  aspect-ratio: 3;
+  object-fit: cover;
+}
+
+.inventory-page .copyright {
+  position: absolute;
+  top: 55px;
+  left: 600px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .line {
+  top: -1202px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.inventory-page .admin {
+  position: absolute;
+  top: 55px;
+  left: 1235px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #cfbbc0;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .frame-4 {
+  position: absolute;
+  top: 293px;
+  left: 0;
+  width: 1440px;
+  height: 1190px;
+  background-color: #f7f4ed;
+  border: 2px solid;
+}
+
+.inventory-page .frame-5 {
+  position: absolute;
+  top: 88px;
+  left: 56px;
+  width: 248px;
+  height: 1013px;
+  background-color: #fffefa;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .ant-design-filter {
+  position: absolute;
+  top: 17px;
+  left: 199px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  aspect-ratio: 1;
+}
+
+.inventory-page .vector {
+  flex: 1;
+  width: 18.75px;
+}
+
+.inventory-page .filters-title {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .condition-label {
+  position: absolute;
+  top: 67px;
+  left: 22px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .selected-condition {
+  position: absolute;
+  top: 88px;
+  left: 22px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  background-color: #78283e;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inventory-page .condition {
+  margin-top: 11.5px;
+  width: 53px;
+  height: 12px;
+  margin-left: 23.2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f7f4ed;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .other-condition {
+  position: absolute;
+  top: 88px;
+  left: 130px;
+  width: 102px;
+  height: 35px;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .condition-2 {
+  margin-top: 11.5px;
+  width: 22px;
+  height: 12px;
+  margin-left: 39.8px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .filter-label {
+  position: absolute;
+  top: 142px;
+  left: 22px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .filter-select {
+  position: absolute;
+  top: 163px;
+  left: 20px;
+  width: 208px;
+  height: 44px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .selected-value {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .vector-2 {
+  position: absolute;
+  width: 11.18%;
+  height: 55.68%;
+  top: 44.32%;
+  left: 88.82%;
+}
+
+.inventory-page .filter-label-2 {
+  top: 226px;
+  left: 22px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .frame-6 {
+  position: absolute;
+  top: 247px;
+  left: 20px;
+  width: 208px;
+  height: 48px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .vector-3 {
+  position: absolute;
+  width: 11.18%;
+  height: 59.38%;
+  top: 40.62%;
+  left: 88.82%;
+}
+
+.inventory-page .price-label {
+  position: absolute;
+  top: 314px;
+  left: 22px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .rectangle {
+  position: absolute;
+  top: 346px;
+  left: 23px;
+  width: 202px;
+  height: 4px;
+  background-color: #78283e;
+  border: 1px solid;
+}
+
+.inventory-page .ellipse {
+  left: 18px;
+  position: absolute;
+  top: 341px;
+  width: 14px;
+  height: 14px;
+  background-color: #fffefa;
+  border-radius: 7px;
+  border: 2px solid;
+  border-color: #78283e;
+}
+
+.inventory-page .ellipse-2 {
+  left: 214px;
+  position: absolute;
+  top: 341px;
+  width: 14px;
+  height: 14px;
+  background-color: #fffefa;
+  border-radius: 7px;
+  border: 2px solid;
+  border-color: #78283e;
+}
+
+.inventory-page .minimum-price {
+  position: absolute;
+  top: 358px;
+  left: 23px;
+  -webkit-text-stroke: 1px #78283e;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .minimum-price-2 {
+  position: absolute;
+  top: 358px;
+  left: 186px;
+  -webkit-text-stroke: 1px #78283e;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .filter-label-3 {
+  top: 390px;
+  left: 22px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .filter-label-4 {
+  top: 478px;
+  left: 23px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .filter-label-5 {
+  top: 566px;
+  left: 23px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .filter-label-6 {
+  top: 654px;
+  left: 23px;
+  position: absolute;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .frame-7 {
+  position: absolute;
+  top: 411px;
+  left: 23px;
+  width: 208px;
+  height: 48px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .frame-8 {
+  position: absolute;
+  top: 499px;
+  left: 23px;
+  width: 208px;
+  height: 48px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .frame-9 {
+  position: absolute;
+  top: 587px;
+  left: 23px;
+  width: 208px;
+  height: 48px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .frame-10 {
+  position: absolute;
+  top: 675px;
+  left: 23px;
+  width: 208px;
+  height: 48px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .frame-11 {
+  position: absolute;
+  top: 760px;
+  left: 23px;
+  width: 208px;
+  height: 48px;
+  background-color: #78283e;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.inventory-page .selected-value-2 {
+  position: absolute;
+  top: 16px;
+  left: 64px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #fffefa;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .vector-4 {
+  position: absolute;
+  width: 23.92%;
+  height: 61.98%;
+  top: 38.02%;
+  left: 76.08%;
+}
+
+.inventory-page .reset-filters {
+  position: absolute;
+  top: 828px;
+  left: 81px;
+  width: 92px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.inventory-page .assistance-copy {
+  position: absolute;
+  top: 932px;
+  left: 23px;
+  width: 208px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 18.7px;
+}
+
+.inventory-page .line-2 {
+  top: 872px;
+  left: 23px;
+  width: 202px;
+  height: 2px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.inventory-page .group-wrapper {
+  position: absolute;
+  top: 0;
+  left: 393px;
+  width: 796px;
+  height: 48px;
+  display: flex;
+  background-color: #fffefa;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .group {
+  margin-top: 17px;
+  width: 204px;
+  height: 15px;
+  margin-left: 27px;
+  position: relative;
+}
+
+.inventory-page .search-placeholder {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .vector-5 {
+  position: absolute;
+  width: 100%;
+  height: 93.33%;
+  top: 6.67%;
+  left: 0;
+}
+
+.inventory-page .vector-6 {
+  position: absolute;
+  width: 96.44%;
+  height: 44.93%;
+  top: 55.07%;
+  left: 3.56%;
+}
+
+.inventory-page .frame-12 {
+  position: absolute;
+  top: 0;
+  left: 1205px;
+  width: 220px;
+  height: 48px;
+  background-color: #f7f4ed;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .sort-label {
+  position: absolute;
+  top: 18px;
+  left: 14px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .vector-7 {
+  position: absolute;
+  width: 11.25%;
+  height: 55.73%;
+  top: 44.27%;
+  left: 88.75%;
+}
+
+.inventory-page .frame-13 {
+  position: absolute;
+  top: 82px;
+  left: 393px;
+  width: 421px;
+  height: 478px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inventory-page .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 421px;
+  height: 237px;
+  object-fit: cover;
+}
+
+.inventory-page .model-name {
+  position: absolute;
+  top: 260px;
+  left: 22px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #1c1a19;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .trim {
+  position: absolute;
+  top: 291px;
+  left: 22px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .quick-specifications {
+  position: absolute;
+  top: 330px;
+  left: 19px;
+  width: 381px;
+  height: 13px;
+  display: flex;
+}
+
+.inventory-page .mileage {
+  width: 56px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .separator {
+  width: 4px;
+  height: 13px;
+  margin-left: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .fuel {
+  width: 32px;
+  height: 13px;
+  margin-left: 14px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .transmission {
+  width: 90px;
+  height: 13px;
+  margin-left: 14px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .asking-price {
+  position: absolute;
+  top: 374px;
+  left: 19px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #78283e;
+  font-size: 23px;
+  letter-spacing: -0.8px;
+  line-height: normal;
+}
+
+.inventory-page .action {
+  position: absolute;
+  top: 417px;
+  left: 19px;
+  width: 381px;
+  height: 48px;
+  display: flex;
+  gap: 9px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .action-label {
+  margin-top: 16px;
+  width: 148px;
+  height: 16px;
+  margin-left: 107px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .arrow-right {
+  margin-top: 16px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
+
+.inventory-page .vector-8 {
+  flex: 1;
+  width: 11.15px;
+}
+
+.inventory-page .year {
+  position: absolute;
+  top: 266px;
+  left: 370px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .frame-14 {
+  position: absolute;
+  top: 595px;
+  left: 393px;
+  width: 421px;
+  height: 478px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inventory-page .rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 421px;
+  height: 237px;
+}
+
+.inventory-page .frame-15 {
+  position: absolute;
+  top: 595px;
+  left: 913px;
+  width: 421px;
+  height: 478px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inventory-page .frame-wrapper {
+  position: absolute;
+  top: 82px;
+  left: 932px;
+  width: 421px;
+  height: 478px;
+  display: flex;
+}
+
+.inventory-page .frame-16 {
+  width: 421px;
+  height: 478px;
+  margin-left: -18px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inventory-page .quick-specifications-2 {
+  position: absolute;
+  top: 330px;
+  left: 19px;
+  width: 381px;
+  height: 13px;
+  display: flex;
+  gap: 14px;
+}
+
+.inventory-page .mileage-2 {
+  width: 55px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .separator-2 {
+  width: 4px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .fuel-2 {
+  width: 31px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .transmission-2 {
+  width: 53px;
+  height: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .divider {
+  position: absolute;
+  top: 358px;
+  left: 19px;
+  width: 381px;
+  height: 1px;
+  background-color: #ddd7cd;
+}
+
+.inventory-page .action-2 {
+  position: absolute;
+  top: 417px;
+  left: 19px;
+  width: 381px;
+  height: 48px;
+  display: flex;
+  gap: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ddd7cd;
+}
+
+.inventory-page .action-label-2 {
+  margin-top: 16px;
+  width: 148px;
+  height: 16px;
+  margin-left: 108px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .page-option {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1107px;
+  left: 1105px;
+  background-color: #78283e;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.inventory-page .page-number {
+  position: relative;
+  width: fit-content;
+  color: #f7f4ed;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .page-number-wrapper {
+  left: 1151px;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1107px;
+  background-color: #f7f4ed;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #78283e;
+}
+
+.inventory-page .page-number-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .div-wrapper {
+  left: 1197px;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1107px;
+  background-color: #f7f4ed;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #78283e;
+}
+
+.inventory-page .page-option-2 {
+  left: 1243px;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1107px;
+  background-color: #f7f4ed;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #78283e;
+}
+
+.inventory-page .page-number-3 {
+  position: relative;
+  width: fit-content;
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .frame-17 {
+  position: absolute;
+  top: 1483px;
+  left: 0;
+  width: 1440px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd7cd;
+}
+
+.inventory-page .assistance-headline {
+  margin-left: 61px;
+  width: 376px;
+  height: 37px;
+  margin-top: 30px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .assistance {
+  margin-left: 61px;
+  width: 376px;
+  height: 15px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #76716d;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .assistance-title {
+  position: absolute;
+  top: 1288px;
+  left: 79px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1a19;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inventory-page .assistance-action {
+  position: absolute;
+  top: 1361px;
+  left: 79px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #78283e;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inventory-page .page-number-4 {
+  position: absolute;
+  top: 1412px;
+  left: 1302px;
+  color: #1c1a19;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* Refactor additions: preserve the existing visual layout while supporting
+   semantic controls, keyboard interaction, and accessible hidden labels. */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.filter-fieldset {
+  position: static;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.filter-fieldset legend {
+  padding: 0;
+}
+
+.condition-button,
+.frame-11,
+.reset-filters,
+.ellipse,
+.ellipse-2 {
+  font: inherit;
+  cursor: pointer;
+}
+
+.condition-button {
+  padding: 0;
+  text-align: left;
+}
+
+.filter-select,
+.frame-6,
+.frame-7,
+.frame-8,
+.frame-9,
+.frame-10 {
+  position: absolute;
+}
+
+.filter-select select,
+.frame-6 select,
+.frame-7 select,
+.frame-8 select,
+.frame-9 select,
+.frame-10 select,
+.sort-select {
+  width: 100%;
+  height: 100%;
+  padding: 0 32px 0 12px;
+  border: 0;
+  outline: 0;
+  appearance: none;
+  background: transparent;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.sort-select {
+  padding-left: 14px;
+  color: #1c1a19;
+  font-size: 11px;
+}
+
+.search-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 20px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #76716d;
+  font-family: "Inter-Regular", Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.search-input::placeholder {
+  color: #76716d;
+  opacity: 1;
+}
+
+.search-input::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+.quick-specifications,
+.quick-specifications-2 {
+  margin: 0;
+}
+
+.quick-specifications dd,
+.quick-specifications-2 dd {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.action,
+.action-2 {
+  color: inherit;
+  cursor: pointer;
+}
+
+.action:focus-visible,
+.action-2:focus-visible,
+.condition-button:focus-visible,
+.frame-11:focus-visible,
+.reset-filters:focus-visible,
+.ellipse:focus-visible,
+.ellipse-2:focus-visible,
+select:focus-visible,
+.search-input:focus-visible,
+a:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+@media (max-width: 900px) {
+  .inventory-page {
+    min-width: 900px;
+  }
+}
